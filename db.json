@@ -7,7 +7,7 @@
             "surname": "Закиров",
             "email": "gasprin321@gmail.com",
             "id": 1,
-            "active": true,
+            "active": false,
             "permissions": "moderator"
         },
         {
