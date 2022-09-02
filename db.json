@@ -1,11 +1,229 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Исмаил"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "moderators": [
+        {
+            "username": "i_zakirov",
+            "password": "{Somepass12}",
+            "name": "Исмаил",
+            "surname": "Закиров",
+            "email": "gasprin321@gmail.com",
+            "id": 1,
+            "active": true,
+            "permissions": "moderator"
+        },
+        {
+            "username": "admin",
+            "password": "admin",
+            "name": "Исмаил",
+            "surname": "Закиров",
+            "email": "gasprin321@gmail.com",
+            "id": 2,
+            "active": true,
+            "permissions": "admin"
+        }
+        ,
+        {
+            "username": "some-seller",
+            "password": "sellerpass",
+            "name": "Seller",
+            "surname": "Asshole",
+            "email": "seller@gmail.com",
+            "id": 3,
+            "active": true,
+            "permissions": "seller"
+        }
+    ],
+
+    "nav-bar-links": [
+        {
+            "id": 1,
+            "name": "Главная",
+            "path": "panel"
+        },
+        {
+            "id": 2,
+            "name": "Товары",
+            "path": "products"
+        },
+        {
+            "id": 3,
+            "name": "Категории",
+            "path": "categories"
+        },
+        {
+            "id": 4,
+            "name": "Характеристики",
+            "path": "characteristics"
+        },
+        {
+            "id": 5,
+            "name": "Модераторы",
+            "path": "moderators"
+        }
+    ],
+
+   "products": [],
+
+   "categories": [
+        {
+            "id": 1,
+            "title": "электроника",
+            "name": "electronics",
+            "path": "electronics/",
+            "level": 1,
+            "islast": false
+        },
+        {
+            "group-id": "electronics",
+            "level": 2,
+            "title": "комплектующие для пк",
+            "name": "komplektuyushchie_dlya_pk",
+            "path": "electronics/komplektuyushchie_dlya_pk/",
+            "islast": false,
+            "id": 2
+        },
+        {
+            "group-id": "electronics",
+            "level": 2,
+            "title": "ноутбуки",
+            "name": "noutbuki",
+            "path": "electronics/noutbuki/",
+            "islast": false,
+            "id": 3
+        },
+        {
+            "group-id": "electronics",
+            "level": 2,
+            "title": "мобильные телефоны",
+            "name": "mobilnye_telefony",
+            "path": "electronics/mobilnye_telefony/",
+            "islast": true,
+            "id": 4
+        },
+        {
+            "group-id": "electronics",
+            "level": 2,
+            "title": "планшеты",
+            "name": "planshety",
+            "path": "electronics/planshety/",
+            "islast": true,
+            "id": 5
+        },
+        {
+            "group-id": "electronics",
+            "level": 2,
+            "title": "бытовая техника",
+            "name": "bytovaya_tehnika",
+            "path": "electronics/bytovaya_tehnika/",
+            "islast": false,
+            "id": 6
+        },
+        {
+            "group-id": "komplektuyushchie_dlya_pk",
+            "level": 3,
+            "title": "видоекарты",
+            "name": "vidoekarty",
+            "path": "electronics/komplektuyushchie_dlya_pk/vidoekarty/",
+            "islast": true,
+            "id": 7
+        },
+        {
+            "group-id": "komplektuyushchie_dlya_pk",
+            "level": 3,
+            "title": "процессоры",
+            "name": "processory",
+            "path": "electronics/komplektuyushchie_dlya_pk/processory/",
+            "islast": true,
+            "id": 8
+        },
+        {
+            "group-id": "komplektuyushchie_dlya_pk",
+            "level": 3,
+            "title": "материнские платы",
+            "name": "materinskie_platy",
+            "path": "electronics/komplektuyushchie_dlya_pk/materinskie_platy/",
+            "islast": true,
+            "id": 9
+        },
+        {
+            "group-id": "komplektuyushchie_dlya_pk",
+            "level": 3,
+            "title": "оперативная память",
+            "name": "operativnaya_pamyat",
+            "path": "electronics/komplektuyushchie_dlya_pk/operativnaya_pamyat/",
+            "islast": true,
+            "id": 10
+        },
+        {
+            "group-id": "noutbuki",
+            "level": 3,
+            "title": "ультрабуки",
+            "name": "ultrabuki",
+            "path": "electronics/noutbuki/ultrabuki/",
+            "islast": true,
+            "id": 11
+        },
+        {
+            "group-id": "noutbuki",
+            "level": 3,
+            "title": "игровые ноутбуки",
+            "name": "igrovye_noutbuki",
+            "path": "electronics/noutbuki/igrovye_noutbuki/",
+            "islast": true,
+            "id": 12
+        },
+        {
+            "group-id": "noutbuki",
+            "level": 3,
+            "title": "офисные ноутбуки",
+            "name": "ofisnye_noutbuki",
+            "path": "electronics/noutbuki/ofisnye_noutbuki/",
+            "islast": true,
+            "id": 13
+        },
+        {
+            "group-id": "bytovaya_tehnika",
+            "level": 3,
+            "title": "микроволновки",
+            "name": "mikrovolnovki",
+            "path": "electronics/bytovaya_tehnika/mikrovolnovki/",
+            "islast": true,
+            "id": 14
+        },
+        {
+            "group-id": "bytovaya_tehnika",
+            "level": 3,
+            "title": "стиральные машины",
+            "name": "stiralnye_mashiny",
+            "path": "electronics/bytovaya_tehnika/stiralnye_mashiny/",
+            "islast": true,
+            "id": 15
+        },
+        {
+            "group-id": "bytovaya_tehnika",
+            "level": 3,
+            "title": "кондиционеры",
+            "name": "kondicionery",
+            "path": "electronics/bytovaya_tehnika/kondicionery/",
+            "islast": false,
+            "id": 16
+        },
+        {
+            "group-id": "kondicionery",
+            "level": 4,
+            "title": "сплит системы",
+            "name": "split_sistemy",
+            "path": "electronics/bytovaya_tehnika/kondicionery/split_sistemy/",
+            "islast": true,
+            "id": 17
+        },
+        {
+            "group-id": "kondicionery",
+            "level": 4,
+            "title": "мини кондиционеры ",
+            "name": "mini_kondicionery_",
+            "path": "electronics/bytovaya_tehnika/kondicionery/mini_kondicionery/",
+            "islast": true,
+            "id": 18
+        }
+    ]
 }
